@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Enter Your Contact Information</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Enter Your Contact Information</h1>
+    </header>
+
+    <main>
+      <section class="info">
+        <h2>Enter Info Here:</h2>
+        <form>
+            <section>
+                <p>Required fields are followed by <span aria-label="required">*</span>.</p>
+
+                <p>
+                    <label for="firstname">First Name: <span aria-label="required">*</span></label>
+                    <input id="firstname" type="text" name="first name" required />
+                </p>
+                <p>
+                    <label for="lastname">Last Name: </label>
+                    <input id="lastname" type="text" name="last name" />
+                </p>
+                <p>
+                    <label for="mail">Email: <span aria-label="required">*</span></label>
+                    <input id="mail" type="email" name="email" required />
+                </p>
+                <p>
+                    <label for="number">Phone Number: <span aria-label="required">*</span></label>
+                    <input id="number" type="tel" name="phone number" required />
+                </p>
+            </section>
+            <section>
+                <p>
+                  <button type="submit">Enter Information</button>
+                </p>
+            </section>
+        </form>
+      </section>
+
+      <footer>
+        <h3>Thank you for testing!</h3>
+      </footer>
+    </main>
+  </body>
+
+</html>
